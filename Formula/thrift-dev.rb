@@ -12,6 +12,7 @@ class ThriftDev < Formula
   depends_on 'libtool'
   depends_on 'autoconf'
   depends_on 'automake'
+  depends_on 'pkg-config'
 
   def install
     system "./bootstrap.sh"
