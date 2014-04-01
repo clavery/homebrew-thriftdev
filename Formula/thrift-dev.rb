@@ -5,7 +5,7 @@ class ThriftDev < Formula
   version '1.0.0dev-clavery'
 
   stable do
-    url "https://github.com/clavery/thrift.git"
+    url "https://github.com/clavery/thrift.git", :tag => '1.0.0dev-clavery'
   end
 
   depends_on 'boost'
