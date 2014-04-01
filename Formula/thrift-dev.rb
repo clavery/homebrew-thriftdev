@@ -2,10 +2,10 @@ require 'formula'
 
 class ThriftDev < Formula
   homepage 'https://github.com/clavery/thrift'
-  version '1.0.0dev-clavery'
+  version '1.0.0dev-clavery-1'
 
   stable do
-    url "https://github.com/clavery/thrift.git", :tag => '1.0.0dev-clavery'
+    url "https://github.com/clavery/thrift.git", :tag => '1.0.0dev-clavery-1'
   end
 
   depends_on 'boost'
